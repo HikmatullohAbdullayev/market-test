@@ -1,0 +1,56 @@
+html{
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+}
+ul,ol{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.wrapper {
+    max-width: 700px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+.products_box {
+    border: 1px solid red;
+}
+.product {
+    border: 1px solid red;
+}
+.img_block {
+}
+.product_img {
+}
+.product_title {
+}
+.product_price {
+}
+.cart_box {
+    padding: 10px;
+    max-width: 400px;
+    height: 500px;
+    border: 1px solid red;
+
+}
